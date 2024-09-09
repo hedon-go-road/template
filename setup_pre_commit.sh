@@ -12,16 +12,6 @@ else
 fi
 
 
-# golangci-lint
-if ! command -v golangci-lint &> /dev/null
-then
-    echo "Installing golangci-lint..."
-     go install github.com/golangci/golangci-lint/cmd/golangci-lint@v1.59.1
-else
-    echo "golangci-lint is already installed"
-fi
-
-
 # typos
 if ! command -v typos &> /dev/null
 then
