@@ -63,7 +63,7 @@ linters:
   disable-all: true
   enable:
     - bodyclose
-#    - depguard # what is the usage of it?
+    #    - depguard # what is the usage of it?
     - dogsled
     - dupl
     - errcheck
@@ -83,7 +83,7 @@ linters:
     - misspell
     - nakedret
     - rowserrcheck
-    - exportloopref
+    - copyloopvar
     - staticcheck
     - stylecheck
     - typecheck
